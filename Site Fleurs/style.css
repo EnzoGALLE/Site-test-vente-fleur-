@@ -1,0 +1,20 @@
+/*Style général du site*/
+.row.content {
+	height: 550px
+}
+
+.sidenav {
+	height: 100em;
+}  
+
+footer {
+   background-color: #555;
+   color: white;
+   padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+}
+
+
